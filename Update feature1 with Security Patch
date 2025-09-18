@@ -1,0 +1,9 @@
+# Switch to feature1 branch
+git checkout feature1
+
+# Rebase feature1 on master OR merge master into feature1
+git merge master
+
+# Resolve conflicts in main.c if any
+git add main.c
+git commit -m "Merged security patch from master into feature1"
