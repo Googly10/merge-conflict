@@ -1,0 +1,14 @@
+# Switch to master branch
+git checkout master
+
+# Merge feature1 into master
+git merge feature1
+# Resolve conflicts in main.c if any
+git add main.c
+git commit -m "Merged feature1 into master"
+
+# Merge feature2 into master
+git merge feature2
+# Resolve conflicts in main.c if any
+git add main.c
+git commit -m "Merged feature2 into master"
